@@ -1,0 +1,55 @@
+.container{
+  margin-left: 30%;
+}
+.cabecalho{
+  margin-bottom: 1em;
+}
+legend,
+label[for="mensagem"] {
+    font-weight: bold;
+    margin-top: 1em;
+    color: #006600;
+}
+label[for],
+button {
+    display: block;
+    margin-top: .5em;
+    color: #006600;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    padding: .25em .5em;
+    width: 60%;
+    box-sizing: border-box;
+    border: 1px solid #006600;
+    margin-top: .5em;
+}
+button {
+    border: 0;
+    padding: .5em 1em;
+    font-family: "Baufra";
+    background-color: #006600;
+    color: #e6ffee;
+    font-size: 1.2em;
+    margin-right: 40%;
+    margin-left: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+input:invalid {
+    box-shadow: 0 0 3px red;
+}
+input:focus,
+textarea:focus {
+    background-color: #ccff66;
+}
+button:focus {
+    background-color: #ccff66;
+}
+#mensagem-erro{
+	color: red;
+  margin-bottom: 1.2em;
+}

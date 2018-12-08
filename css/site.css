@@ -1,0 +1,96 @@
+.cabecalho{
+	background-color: #ccff66;
+	height: 65px;
+}
+.titulo-principal{
+	font-style: bold;
+	font-size: 60px;
+	color: #006600;
+	padding-bottom: 10px;
+	position: absolute;
+	margin-left: 1em;
+	font-family: "Baufra";
+}
+.menu-navegação{
+	font-family: "Verdana";
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	margin-left: 8em;
+}
+.menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.menu li{
+	text-decoration: none;
+	text-decoration-line: underline;
+    text-decoration-style: solid;
+	font-size: 16px;
+	color:inherit;
+	color: #006600;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+header li:hover{
+	font-weight: bold;
+}
+body{
+	background-color: #e6ffee;
+}
+main a:hover{
+  font-weight: bold;
+}
+.rodape{
+	background-color: #ccff66;
+	font-family: "Verdana";
+	color: #006600;
+  padding: .5em;
+  clear: both;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.menu-rodape{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1em;
+}
+.dados{
+	font-size: 16px;
+	color:inherit;
+	color: #006600;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: center;
+}
+.link-contato{
+	text-decoration: none;
+	text-decoration-line: underline;
+    text-decoration-style: solid;
+	font-size: 16px;
+	color:inherit;
+	color: #006600;
+}
+.redes-sociais li{
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.redes-sociais img{
+	max-width: 50px;
+	max-height: 50px;
+	width: auto;
+	height: auto;
+}
+figcaption{
+	font-family: "Courier";
+	text-decoration: none;
+	text-decoration-line: underline;
+    text-decoration-style: solid;
+	color:inherit;
+	color: #006600;
+}

@@ -1,0 +1,25 @@
+.container{
+  position: relative;
+  width: 100%;
+	height: auto;
+}
+.container ul{
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.container li{
+  text-decoration: none;
+	text-decoration-line: underline;
+  text-decoration-style: solid;
+  font-style: bold;
+	font-size: 60px;
+	color: #006600;
+  font-family: "Baufra";
+  padding: 2em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.container li:hover{
+  font-weight: bold;
+}
